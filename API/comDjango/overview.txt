@@ -1,0 +1,15 @@
+1- Criar e ativar venv
+
+2- instalar Django, Res_framework e Corsheaders
+
+3- Criar 2 programas (api_root e api_rest)
+api_root:
+    setting.py (configs gerais)
+    urls.py (links da aplicação)
+
+api_rest:
+    models.py (modelos p/ db)
+    admin.py (configurar edição de modelos)
+    serializers.py (Gerar jsons dos modelos)
+    views.py (Funções da API)
+    urls.py (Linkar funções)
